@@ -46,7 +46,7 @@ function NewsType(props) {
                         )
                     })}
                 </div>
-                    {size < 90 ? <button className='bottom-btn' onClick={addMore}>See more</button> : <button onClick={() => window.scrollTo(0, 0)}>Go to top</button>}
+                    {size < 90 ? <button className='bottom-btn' onClick={addMore}>See more</button> : <button className='bottom-btn' onClick={() => window.scrollTo(0, 0)}>Go to top</button>}
             </div>
 
         </div>
