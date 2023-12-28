@@ -1,0 +1,3 @@
+If you want to use the project, npm i and add an env file with api key from news API
+.env 
+REACT_API_KEY = [news api key]
